@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.all-page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: radial-gradient(circle, green, black);
+  position: relative;
+}
+
+.card {
+  position: relative;
+  float: left;
+  width: 170px;
+  height: 260px;
+  background-color: white;
+  border-radius: 5%;
+  margin: 20px 10px;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.top-centre {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-centre {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.abs-centre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.rot-180 {
+  transform: rotate(180deg);
+}
+
+.mini-square {
+  padding: 10px;
+  text-align: center;
+}
+
+.square {
+  font-size: 300%;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+.bottom-centre > h1 {
+  position: relative;
+  top: 35px;
+}
+
+.top-centre > h1 {
+  position: relative;
+  bottom: 35px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10%;
+  background-color: black;
+  color: white;
+  border: 0;
+  font-size: 20px;
+}
+
+.tc {
+  text-align: center;
+}
+
+.vinto, .perso {
+  font-size: 30px;
+  padding: 20px 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  display: none;
+}
